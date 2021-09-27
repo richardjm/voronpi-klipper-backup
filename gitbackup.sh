@@ -65,7 +65,7 @@ push_config(){
   git add . -v
   current_date=$(date +"%Y-%m-%d %T")
   git commit -m "Voronpi autocommit from $current_date" -m "$m1" -m "$m2" -m "$m3" -m "$m4"
-  git push "https://voronpi:$GH_TOKEN@github.com/richardjm/voronpi-klipper-backup.git" -v
+  git push "https://voronpi:$GH_TOKEN@github.com/richardjm/voronpi-klipper-backup.git"
 }
 
 grab_version
