@@ -38,7 +38,7 @@ grab_version(){
     cd ..
   fi
   if [ ! -z "$moonraker_folder" ]; then
-    echo -n "Getting moonraker version"
+    echo -n "Getting moonraker version="
     cd "$moonraker_folder"
     moonraker_commit=$(git rev-parse --short=7 HEAD)
     m2="Moonraker on commit: $moonraker_commit"
@@ -61,6 +61,7 @@ grab_version(){
 
 push_config(){
   cd $config_folder
+  echo Pushing updates
   git pull -v
   git add . -v
   current_date=$(date +"%Y-%m-%d %T")
