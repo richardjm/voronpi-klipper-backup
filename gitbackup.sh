@@ -49,7 +49,7 @@ grab_version(){
     echo -n "Getting mainsail version="
     mainsail_ver=$(head -n 1 $mainsail_folder/.version)
     m3="Mainsail version: $mainsail_ver"
-    echo $mailsail_ver
+    echo $mainsail_ver
   fi
   if [ ! -z "$fluidd_folder" ]; then
     echo -n "Getting fluidd version="
