@@ -7,7 +7,7 @@ Voron 2.4 250mm v2.1906
 discord: whistlinric
 
 # Features
-- Git backup - modified to use PAT token authentication (couldn't get ssh working)
+- [Git backup](https://github.com/th33xitus/kiauh/wiki/How-to-autocommit-config-changes-to-github%3F) - modified to use PAT token authentication (couldn't get ssh working)
 - [Klicky Probe](https://github.com/jlas1/Klicky-Probe) - modified macro to stop polluting macro namespace
 - [Nozzle Scrubber](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_&_Nozzle_Scrubber) - unmodified
 - [Resonance testing with image processing](https://www.klipper3d.org/Measuring_Resonances.html) - should really have a nginx site to view the images or similar
