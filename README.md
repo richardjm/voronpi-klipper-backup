@@ -21,6 +21,7 @@ discord: whistlinric
 [https://vorondesign.com/](https://vorondesign.com/)  
 [https://github.com/tanaes/measure_thermal_behavior](https://github.com/tanaes/measure_thermal_behavior)  
 [https://github.com/Ramalama2/Voron-2-Mods](https://github.com/Ramalama2/Voron-2-Mods)  
+[https://github.com/AndrewEllis93/Ellis-PIF-Profile](https://github.com/AndrewEllis93/Ellis-PIF-Profile)  
 
 # Other klipper backups I've found useful
 [https://github.com/AndrewEllis93/v2.247_backup_klipper_config](https://github.com/AndrewEllis93/v2.247_backup_klipper_config)  
