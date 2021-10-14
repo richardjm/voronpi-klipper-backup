@@ -19,6 +19,7 @@ discord: whistlinric
 [https://www.klipper3d.org/](https://www.klipper3d.org/)  
 [https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods)  
 [https://vorondesign.com/](https://vorondesign.com/)  
+[https://github.com/tanaes/measure_thermal_behavior](https://github.com/tanaes/measure_thermal_behavior)  
 
 # Other klipper backups I've found useful
 [https://github.com/AndrewEllis93/v2.247_backup_klipper_config](https://github.com/AndrewEllis93/v2.247_backup_klipper_config)  
