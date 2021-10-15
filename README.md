@@ -16,6 +16,7 @@ discord: whistlinric
 
 # Links
 
+[https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0](https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0)  
 [https://www.klipper3d.org/](https://www.klipper3d.org/)  
 [https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods)  
 [https://vorondesign.com/](https://vorondesign.com/)  
