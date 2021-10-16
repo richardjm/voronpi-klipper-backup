@@ -29,3 +29,4 @@ discord: whistlinric
 # Other klipper backups I've found useful
 [https://github.com/AndrewEllis93/v2.247_backup_klipper_config](https://github.com/AndrewEllis93/v2.247_backup_klipper_config)  
 [https://github.com/pushc6/VoronConfig](https://github.com/pushc6/VoronConfig)  
+[https://github.com/kageurufu/3dp-voron2/tree/master/printer](https://github.com/kageurufu/3dp-voron2/tree/master/printer)  
