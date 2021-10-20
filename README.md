@@ -25,6 +25,7 @@ discord: whistlinric
 [https://github.com/AndrewEllis93/Ellis-PIF-Profile](https://github.com/AndrewEllis93/Ellis-PIF-Profile)  
 [https://github.com/hartk1213](https://github.com/hartk1213)  
 [https://github.com/Rhoban/Plater](https://github.com/Rhoban/Plater)  
+[https://github.com/VoronDesign/Voron-Documentation/blob/4a825a8704a3c8467606f58fb45ac4c377779842/community/howto/alchemyEngine/lcd_tweaks.cfg](https://github.com/VoronDesign/Voron-Documentation/blob/4a825a8704a3c8467606f58fb45ac4c377779842/community/howto/alchemyEngine/lcd_tweaks.cfg)  
 
 # Other klipper backups I've found useful
 [https://github.com/AndrewEllis93/v2.247_backup_klipper_config](https://github.com/AndrewEllis93/v2.247_backup_klipper_config)  
