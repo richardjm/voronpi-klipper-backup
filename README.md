@@ -15,17 +15,18 @@ discord: whistlinric
 - [Calibrating Klipper z offset](https://github.com/protoloft/klipper_z_calibration) - modified config to reduce verbosity
 
 # Links
-
-[https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0](https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0)  
-[https://www.klipper3d.org/](https://www.klipper3d.org/)  
-[https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods)  
+[Voron User Mods](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods)  
 [https://vorondesign.com/](https://vorondesign.com/)  
-[https://github.com/tanaes/measure_thermal_behavior](https://github.com/tanaes/measure_thermal_behavior)  
-[https://github.com/Ramalama2/Voron-2-Mods](https://github.com/Ramalama2/Voron-2-Mods)  
-[https://github.com/AndrewEllis93/Ellis-PIF-Profile](https://github.com/AndrewEllis93/Ellis-PIF-Profile)  
-[https://github.com/hartk1213](https://github.com/hartk1213)  
-[https://github.com/Rhoban/Plater](https://github.com/Rhoban/Plater)  
-[https://github.com/VoronDesign/Voron-Documentation/blob/4a825a8704a3c8467606f58fb45ac4c377779842/community/howto/alchemyEngine/lcd_tweaks.cfg](https://github.com/VoronDesign/Voron-Documentation/blob/4a825a8704a3c8467606f58fb45ac4c377779842/community/howto/alchemyEngine/lcd_tweaks.cfg)  
+
+[BTT Octopus GitHub](https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0)  
+[Klipper](https://www.klipper3d.org/)  
+[Ellis' PIF Profile](https://github.com/AndrewEllis93/Ellis-PIF-Profile)  
+[Ellis' Print Tuning Guide](https://github.com/AndrewEllis93/Print-Tuning-Guide)  
+[hartk1213 all the pcbs and much more](https://github.com/hartk1213)  
+[lcd_tweaks.cfg](https://github.com/VoronDesign/Voron-Documentation/blob/4a825a8704a3c8467606f58fb45ac4c377779842/community/howto/alchemyEngine/lcd_tweaks.cfg)  
+[Measure_thermal_behavior - the need for backers](https://github.com/tanaes/measure_thermal_behavior)  
+[Plater optimal part layout](https://github.com/Rhoban/Plater)  
+[Rama's Voron Mods inc the new idlers](https://github.com/Ramalama2/Voron-2-Mods)  
 
 # Other klipper backups I've found useful
 [https://github.com/AndrewEllis93/v2.247_backup_klipper_config](https://github.com/AndrewEllis93/v2.247_backup_klipper_config)  
