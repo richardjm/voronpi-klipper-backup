@@ -27,6 +27,7 @@ discord: whistlinric
 [Measure_thermal_behavior - the need for backers](https://github.com/tanaes/measure_thermal_behavior)  
 [Plater optimal part layout](https://github.com/Rhoban/Plater)  
 [Rama's Voron Mods inc the new idlers](https://github.com/Ramalama2/Voron-2-Mods)  
+[nxutil filament encoder](https://github.com/nexx/nxencoder-util)  
 
 # Other klipper backups I've found useful
 [https://github.com/AndrewEllis93/v2.247_backup_klipper_config](https://github.com/AndrewEllis93/v2.247_backup_klipper_config)  
