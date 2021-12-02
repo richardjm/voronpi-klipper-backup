@@ -23,7 +23,7 @@ discord: whistlinric
 [Ellis' PIF Profile](https://github.com/AndrewEllis93/Ellis-PIF-Profile)  
 [Ellis' Print Tuning Guide](https://github.com/AndrewEllis93/Print-Tuning-Guide)  
 [hartk1213 various repos](https://github.com/hartk1213)  
-[hartk1213 toolhead pcbs](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB)
+[hartk1213 toolhead pcbs](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB)  
 [lcd_tweaks.cfg](https://github.com/VoronDesign/Voron-Documentation/blob/4a825a8704a3c8467606f58fb45ac4c377779842/community/howto/alchemyEngine/lcd_tweaks.cfg)  
 [Measure_thermal_behavior - the need for backers](https://github.com/tanaes/measure_thermal_behavior)  
 [Plater optimal part layout](https://github.com/Rhoban/Plater)  
