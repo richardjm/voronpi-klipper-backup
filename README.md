@@ -16,6 +16,7 @@ discord: whistlinric
 
 # Links
 [Voron User Mods](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods)  
+[https://voronregistry.com/mods](https://voronregistry.com/mods) - Also nice website for same by discord:exceptionptr  
 [https://vorondesign.com/](https://vorondesign.com/)  
 
 [BTT Octopus GitHub](https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0)  
