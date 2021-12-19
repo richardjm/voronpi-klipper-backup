@@ -31,6 +31,7 @@ discord: whistlinric
 [Rama's Voron Mods inc the new idlers](https://github.com/Ramalama2/Voron-2-Mods)  
 [nxutil filament encoder](https://github.com/nexx/nxencoder-util)  
 [http://spikerlights.com/calcpower.aspx](http://spikerlights.com/calcpower.aspx) - LED strip power injection calculator  
+[https://github.com/alchemyEngine/klipper_frame_expansion_comp](https://github.com/alchemyEngine/klipper_frame_expansion_comp)  
 
 # Other klipper backups I've found useful
 [https://github.com/AndrewEllis93/v2.247_backup_klipper_config](https://github.com/AndrewEllis93/v2.247_backup_klipper_config)  
