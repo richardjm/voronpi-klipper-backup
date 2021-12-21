@@ -1,5 +1,5 @@
 #!/bin/sh
-now=$(date +"%F-%X")
+now=$(date +"%F-%H_%M_%S")
 # TEST_RESONANCES AXIS=X
 # TEST_RESONANCES AXIS=Y
 
