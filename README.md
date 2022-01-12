@@ -11,7 +11,7 @@ discord: whistlinric
 - [Klicky Probe](https://github.com/jlas1/Klicky-Probe) - modified macro to stop polluting macro namespace
 - [Nozzle Scrubber](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_&_Nozzle_Scrubber) - unmodified
 - [Resonance testing with image processing](https://www.klipper3d.org/Measuring_Resonances.html) - pushing to [github](resonances) to view them is pretty easy
-- [WLED](https://kno.wled.ge/) macros making use of [new moonraker wled component](https://moonraker.readthedocs.io/en/latest/configuration/#wled) running on a separate [d1 mini](https://www.aliexpress.com/item/32651747570.html)
+- [WLED](https://kno.wled.ge/) macros making use of [new moonraker wled component](https://moonraker.readthedocs.io/en/latest/configuration/#wled) running on a separate [d1 mini v3](https://www.aliexpress.com/item/32651747570.html)
 - [Calibrating Klipper z offset](https://github.com/protoloft/klipper_z_calibration) - modified config to reduce verbosity
 
 # Links
