@@ -1,0 +1,1007 @@
+// Search replace with appropriate values and remove all these comment lines
+// FULLLENGTH (e.g. 79)
+// CASELENGTH (e.g. 76)
+// "Printing" is the most complicated preset that you'll need to edit as the last 3 leds on my wled are my stealthburner
+// Restore presets in wled website via "Security & Updates" and "Restore presets"
+{
+    "0": {},
+    "43": {
+        "on": true,
+        "bri": 255,
+        "transition": 7,
+        "mainseg": 0,
+        "seg": [
+            {
+                "id": 0,
+                "start": 0,
+                "stop": FULLLENGTH,
+                "grp": 1,
+                "spc": 0,
+                "on": true,
+                "bri": 255,
+                "col": [
+                    [
+                        255,
+                        168,
+                        5
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "fx": 2,
+                "sx": 157,
+                "ix": 99,
+                "pal": 0,
+                "sel": true,
+                "rev": false,
+                "mi": false
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            }
+        ],
+        "n": "Print Pause"
+    },
+    "44": {
+        "n": "Printer pi shutdown",
+        "on": true,
+        "bri": 35,
+        "transition": 7,
+        "mainseg": 0,
+        "seg": [
+            {
+                "id": 0,
+                "start": 0,
+                "stop": CASELENGTH,
+                "grp": 1,
+                "spc": 0,
+                "on": true,
+                "bri": 255,
+                "col": [
+                    [
+                        0,
+                        0,
+                        110
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "fx": 0,
+                "sx": 129,
+                "ix": 128,
+                "pal": 0,
+                "sel": true,
+                "rev": false,
+                "mi": false
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            }
+        ]
+    },
+    "45": {
+        "n": "Printer Normal",
+        "on": true,
+        "bri": 255,
+        "transition": 7,
+        "mainseg": 0,
+        "seg": [
+            {
+                "id": 0,
+                "start": 0,
+                "stop": CASELENGTH,
+                "grp": 1,
+                "spc": 0,
+                "of": 0,
+                "on": true,
+                "bri": 255,
+                "cct": 127,
+                "n": "Case",
+                "col": [
+                    [
+                        255,
+                        191,
+                        130,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "fx": 0,
+                "sx": 63,
+                "ix": 128,
+                "pal": 0,
+                "sel": true,
+                "rev": false,
+                "mi": false
+            },
+            {
+                "id": 1,
+                "start": CASELENGTH,
+                "stop": FULLLENGTH,
+                "grp": 1,
+                "spc": 0,
+                "of": 0,
+                "on": true,
+                "bri": 255,
+                "cct": 127,
+                "n": "SB",
+                "col": [
+                    [
+                        255,
+                        224,
+                        160,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "fx": 0,
+                "sx": 255,
+                "ix": 255,
+                "pal": 0,
+                "sel": true,
+                "rev": false,
+                "mi": false
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            }
+        ]
+    },
+    "46": {
+        "n": "Printing",
+        "on": true,
+        "bri": 115,
+        "transition": 7,
+        "mainseg": 0,
+        "seg": [
+            {
+                "id": 0,
+                "start": 0,
+                "stop": CASELENGTH,
+                "grp": 1,
+                "spc": 0,
+                "of": 0,
+                "on": true,
+                "bri": 255,
+                "cct": 127,
+                "n": "Case",
+                "col": [
+                    [
+                        255,
+                        255,
+                        255,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "fx": 106,
+                "sx": 154,
+                "ix": 151,
+                "pal": 0,
+                "sel": false,
+                "rev": false,
+                "mi": false
+            },
+            {
+                "id": 1,
+                "start": 77,
+                "stop": FULLLENGTH,
+                "grp": 1,
+                "spc": 0,
+                "of": 0,
+                "on": true,
+                "bri": 255,
+                "cct": 127,
+                "n": "SB",
+                "col": [
+                    [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "fx": 0,
+                "sx": 255,
+                "ix": 255,
+                "pal": 0,
+                "sel": true,
+                "rev": false,
+                "mi": false
+            },
+            {
+                "id": 2,
+                "start": CASELENGTH,
+                "stop": 77,
+                "grp": 1,
+                "spc": 0,
+                "of": 0,
+                "on": true,
+                "bri": 255,
+                "cct": 127,
+                "n": "Logo",
+                "col": [
+                    [
+                        255,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "fx": 80,
+                "sx": 114,
+                "ix": 188,
+                "pal": 0,
+                "sel": false,
+                "rev": false,
+                "mi": false
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            }
+        ]
+    },
+    "41": {
+        "on": true,
+        "bri": 255,
+        "transition": 7,
+        "mainseg": 0,
+        "seg": [
+            {
+                "id": 0,
+                "start": 0,
+                "stop": FULLLENGTH,
+                "grp": 1,
+                "spc": 0,
+                "on": true,
+                "bri": 255,
+                "col": [
+                    [
+                        255,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "fx": 2,
+                "sx": 129,
+                "ix": 128,
+                "pal": 0,
+                "sel": true,
+                "rev": false,
+                "mi": false
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            }
+        ],
+        "n": "Print Warming"
+    },
+    "42": {
+        "on": true,
+        "bri": 128,
+        "transition": 7,
+        "mainseg": 0,
+        "seg": [
+            {
+                "id": 0,
+                "start": 0,
+                "stop": FULLLENGTH,
+                "grp": 1,
+                "spc": 0,
+                "on": true,
+                "bri": 255,
+                "col": [
+                    [
+                        8,
+                        255,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "fx": 0,
+                "sx": 63,
+                "ix": 128,
+                "pal": 0,
+                "sel": true,
+                "rev": false,
+                "mi": false
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            }
+        ],
+        "n": "Print End"
+    },
+    "1": {
+        "n": "Pride",
+        "on": true,
+        "bri": 128,
+        "transition": 7,
+        "mainseg": 0,
+        "seg": [
+            {
+                "id": 0,
+                "start": 0,
+                "stop": CASELENGTH,
+                "grp": 1,
+                "spc": 0,
+                "of": 0,
+                "on": true,
+                "bri": 255,
+                "cct": 127,
+                "n": "Case",
+                "col": [
+                    [
+                        255,
+                        160,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "fx": 63,
+                "sx": 63,
+                "ix": 128,
+                "pal": 0,
+                "sel": true,
+                "rev": false,
+                "mi": false
+            },
+            {
+                "id": 1,
+                "start": CASELENGTH,
+                "stop": FULLLENGTH,
+                "grp": 1,
+                "spc": 0,
+                "of": 0,
+                "on": true,
+                "bri": 255,
+                "cct": 127,
+                "n": "SB",
+                "col": [
+                    [
+                        255,
+                        255,
+                        255,
+                        255
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "fx": 74,
+                "sx": 125,
+                "ix": 116,
+                "pal": 1,
+                "sel": true,
+                "rev": false,
+                "mi": false
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            }
+        ]
+    },
+    "99": {
+        "n": "Booting",
+        "on": true,
+        "bri": 122,
+        "transition": 7,
+        "mainseg": 0,
+        "seg": [
+            {
+                "id": 0,
+                "start": 0,
+                "stop": FULLLENGTH,
+                "grp": 1,
+                "spc": 0,
+                "of": 0,
+                "on": true,
+                "bri": 255,
+                "cct": 127,
+                "col": [
+                    [
+                        255,
+                        0,
+                        255,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "fx": 0,
+                "sx": 63,
+                "ix": 128,
+                "pal": 0,
+                "sel": true,
+                "rev": false,
+                "mi": false
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            }
+        ]
+    },
+    "47": {
+        "n": "Printer Dim",
+        "on": true,
+        "bri": 26,
+        "transition": 7,
+        "mainseg": 0,
+        "seg": [
+            {
+                "id": 0,
+                "start": 0,
+                "stop": FULLLENGTH,
+                "grp": 1,
+                "spc": 0,
+                "of": 0,
+                "on": true,
+                "bri": 255,
+                "cct": 127,
+                "col": [
+                    [
+                        255,
+                        224,
+                        160,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "fx": 0,
+                "sx": 63,
+                "ix": 128,
+                "pal": 0,
+                "sel": true,
+                "rev": false,
+                "mi": false
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            }
+        ]
+    },
+    "40": {
+        "n": "Print Homing",
+        "on": true,
+        "bri": 128,
+        "transition": 7,
+        "mainseg": 1,
+        "seg": [
+            {
+                "stop": 0
+            },
+            {
+                "id": 1,
+                "start": 0,
+                "stop": FULLLENGTH,
+                "grp": 1,
+                "spc": 0,
+                "of": 0,
+                "on": true,
+                "bri": 255,
+                "cct": 127,
+                "col": [
+                    [
+                        255,
+                        255,
+                        255,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        255,
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "fx": 47,
+                "sx": 213,
+                "ix": 45,
+                "pal": 0,
+                "sel": true,
+                "rev": false,
+                "mi": false
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            }
+        ]
+    }
+}
