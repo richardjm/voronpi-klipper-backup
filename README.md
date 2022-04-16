@@ -39,3 +39,4 @@ discord: whistlinric
 [https://github.com/kageurufu/3dp-voron2/tree/master/printer](https://github.com/kageurufu/3dp-voron2/tree/master/printer)  
 [https://github.com/wile-e1/klipper_config](https://github.com/wile-e1/klipper_config)  
 [https://github.com/th33xitus/klipper_config](https://github.com/th33xitus/klipper_config)  
+[https://github.com/jktightwad/Klipper24Config](https://github.com/jktightwad/Klipper24Config)  
