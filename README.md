@@ -40,3 +40,4 @@ discord: whistlinric
 [https://github.com/wile-e1/klipper_config](https://github.com/wile-e1/klipper_config)  
 [https://github.com/th33xitus/klipper_config](https://github.com/th33xitus/klipper_config)  
 [https://github.com/jktightwad/Klipper24Config](https://github.com/jktightwad/Klipper24Config)  
+[https://github.com/mjoconr/Voron2.4-Config](https://github.com/mjoconr/Voron2.4-Config)  
