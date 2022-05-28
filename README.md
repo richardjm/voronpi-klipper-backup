@@ -33,6 +33,7 @@ discord: whistlinric
 [http://spikerlights.com/calcpower.aspx](http://spikerlights.com/calcpower.aspx) - LED strip power injection calculator  
 [https://github.com/alchemyEngine/klipper_frame_expansion_comp](https://github.com/alchemyEngine/klipper_frame_expansion_comp)  
 [Klipper Estimator](https://github.com/Annex-Engineering/klipper_estimator)  
+[Planetary Z drive](https://github.com/CarlosRodriguess/Galileo-Z_Modify)  
 
 # Other klipper backups I've found useful
 [https://github.com/AndrewEllis93/v2.247_backup_klipper_config](https://github.com/AndrewEllis93/v2.247_backup_klipper_config)  
