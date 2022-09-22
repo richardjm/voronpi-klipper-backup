@@ -50,8 +50,8 @@ discord: whistlinric
 [https://github.com/mjoconr/Voron2.4-Config](https://github.com/mjoconr/Voron2.4-Config)  
 [https://github.com/zellneralex/klipper_config](https://github.com/zellneralex/klipper_config)  
 
-# Can Bus
-1. [Maz's github on Can Bus](https://maz0r.github.io/klipper_canbus/)
+# CAN Bus for Mellow SHT36 v2
+1. [Maz's github on CAN Bus](https://maz0r.github.io/klipper_canbus/)
 1. Ensure your data cables are twisted
 1. Ensure you have a file in `/etc/network/interfaces.d' called 'can0'
 ```
@@ -59,4 +59,76 @@ allow-hotplug can0
 iface can0 can static
     bitrate 500000
     up ifconfig $IFACE txqueuelen 128
+```
+
+# Make menuconfigs
+
+## Klipper - Octopus UART
+![Klipper-Octopus-UART](images\Klipper-Octopus-UART.png)
+
+## Klipper - Octopus USB
+![Klipper-Octopus-USB](images\Klipper-Octopus-USB.png)
+
+## Klipper - mellow-sht36-v2
+![klipper-sht36-v2](images\klipper-sht36-v2.png)
+
+## CanBoot - Octopus
+![canboot-octopus](images\canboot-octopus.png)
+
+## Klipper - Octopus USB to CAN Bridge
+
+**Whatever I do I can't get this to work**
+
+- https://github.com/maz0r/klipper_canbus/blob/main/controller/monster8v2.md
+- https://github.com/Arksine/CanBoot
+- https://www.klipper3d.org/CANBUS.html
+
+![klipper-Octopus-USB2CAN](images\Klipper-Octopus-USB2CAN.png)
+
+### Some command lines
+
+```bash
+# OpenMoko is CAN bus I think
+x@host:~ $ lsusb
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 004: ID 1a86:7523 QinHeng Electronics HL-340 USB-Serial adapter
+Bus 001 Device 003: ID 1d50:606f OpenMoko, Inc.
+Bus 001 Device 002: ID 2109:3431 VIA Labs, Inc. Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
+# After flashing CAN bus Octopus
+x@host:~/klipper $ ~/CanBoot/scripts/flash_can.py -i can0 -q
+Resetting all bootloader node IDs...
+Checking for canboot nodes...
+Detected UUID: bac2e369d891, Application: Klipper
+Query Complete
+
+# Also
+x@host:~/klipper $ ~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0
+Total 0 uuids found
+
+# Double click reset button to flash via CanBoot
+x@host:~/klipper $ ls /dev/serial/by-id/*
+/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0
+/dev/serial/by-id/usb-CanBoot_stm32f446xx_0B0027000A50534E4E313020-if00
+
+# Flash from klipper folder
+x@host:~/klipper $ python3 ~/CanBoot/scripts/flash_can.py -d /dev/serial/by-id/usb-CanBoot_stm32f446xx_0B0027000A50534E4E313020-if00
+Attempting to connect to bootloader
+CanBoot Connected
+Protocol Version: 1.0.0
+Block Size: 64 bytes
+Application Start: 0x8008000
+MCU type: stm32f446xx
+Flashing '/home/x/klipper/out/klipper.bin'...
+
+[##################################################]
+
+Write complete: 2 pages
+Verifying (block count = 444)...
+
+[##################################################]
+
+Verification Complete: SHA = A27B43282D53034644140581F8DBB1B05BF64F7B
+CAN Flash Success
 ```
