@@ -64,16 +64,16 @@ iface can0 can static
 # Make menuconfigs
 
 ## Klipper - Octopus UART
-![Klipper-Octopus-UART](images/Klipper-Octopus-UART.png)
+![Klipper-Octopus-UART](.images/Klipper-Octopus-UART.png)
 
 ## Klipper - Octopus USB
-![Klipper-Octopus-USB](images/Klipper-Octopus-USB.png)
+![Klipper-Octopus-USB](.images/Klipper-Octopus-USB.png)
 
 ## Klipper - mellow-sht36-v2
-![klipper-sht36-v2](images/klipper-sht36-v2.png)
+![klipper-sht36-v2](.images/klipper-sht36-v2.png)
 
 ## CanBoot - Octopus
-![canboot-octopus](images/canboot-octopus.png)
+![canboot-octopus](.images/canboot-octopus.png)
 
 ## Klipper - Octopus USB to CAN Bridge
 
@@ -83,7 +83,7 @@ iface can0 can static
 - https://github.com/Arksine/CanBoot
 - https://www.klipper3d.org/CANBUS.html
 
-![klipper-Octopus-USB2CAN](images/Klipper-Octopus-USB2CAN.png)
+![klipper-Octopus-USB2CAN](.images/Klipper-Octopus-USB2CAN.png)
 
 ### Some command lines
 
