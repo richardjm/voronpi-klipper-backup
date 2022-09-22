@@ -96,7 +96,7 @@ Bus 001 Device 003: ID 1d50:606f OpenMoko, Inc.
 Bus 001 Device 002: ID 2109:3431 VIA Labs, Inc. Hub
 Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 
-# After flashing CAN bus Octopus
+# After flashing CAN bus Octopus the UUID goes to [mcu] canbus_uuid::
 x@host:~/klipper $ ~/CanBoot/scripts/flash_can.py -i can0 -q
 Resetting all bootloader node IDs...
 Checking for canboot nodes...
@@ -107,7 +107,7 @@ Query Complete
 x@host:~/klipper $ ~/klippy-env/bin/python ~/klipper/scripts/canbus_query.py can0
 Total 0 uuids found
 
-# Double click reset button to flash via CanBoot
+# Double click reset button to flash via CanBoot /dev/serial
 x@host:~/klipper $ ls /dev/serial/by-id/*
 /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0
 /dev/serial/by-id/usb-CanBoot_stm32f446xx_0B0027000A50534E4E313020-if00
