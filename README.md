@@ -17,6 +17,7 @@ discord: whistlinric
 - [Stealthburner with Clockwork 2](https://vorondesign.com/voron_stealthburner)
 - [Voron Revo](https://e3d-online.com/products/revo-voron)
 - [WLED](https://kno.wled.ge/) macros making use of [new moonraker wled component](https://moonraker.readthedocs.io/en/latest/configuration/#wled) running on a separate [d1 mini v3](https://www.aliexpress.com/item/32651747570.html)
+- [Probe Accuracy Tests](https://github.com/sporkus/probe_accuracy_tests) - WIP
 
 # Links
 [My Voron Mods](https://github.com/richardjm/voron-parts)
