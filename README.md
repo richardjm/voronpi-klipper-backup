@@ -51,6 +51,19 @@ discord: whistlinric
 [https://github.com/mjoconr/Voron2.4-Config](https://github.com/mjoconr/Voron2.4-Config)  
 [https://github.com/zellneralex/klipper_config](https://github.com/zellneralex/klipper_config)  
 
+# Modifying safe probe move distance (in 4 places)
+- printer_probing.cfg
+	- quad_gantry_level
+        - horizontal_move_z
+	- bed_mesh
+		- horizontal_move_z
+		
+- config.d/z_calibration.cfg
+	- clearance
+	
+- macros.d/klicky_variables.cfg
+	- variable_safe_z
+    
 # CAN Bus for Mellow SHT36 v2
 1. [Maz's github on CAN Bus](https://maz0r.github.io/klipper_canbus/)
 1. Ensure your data cables are twisted
