@@ -19,6 +19,16 @@ discord: whistlinric
 - [WLED](https://kno.wled.ge/) macros making use of [new moonraker wled component](https://moonraker.readthedocs.io/en/latest/configuration/#wled) running on a separate [d1 mini v3](https://www.aliexpress.com/item/32651747570.html)
 - [Probe Accuracy Tests](https://github.com/sporkus/probe_accuracy_tests) - WIP
 
+# Installing klippy/extras via soft links
+This should prevent hard resets removing the source file you just have to re-create the links after.
+
+```sh
+pi@voronpi:~ $ cd klipper/klippy/extras
+pi@voronpi:~/klipper/klippy/extras $ ln -s ~/klipper_config/.scripts/gcode_shell_command.py
+pi@voronpi:~/klipper/klippy/extras $ ln -s ~/klipper_config/.scripts/ercf.py
+pi@voronpi:~/klipper/klippy/extras $ ln -s ~/klipper_config/.scripts/z_calibration.py
+```
+
 # Links
 [My Voron Mods](https://github.com/richardjm/voron-parts)
 [Voron User Mods](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods)  
