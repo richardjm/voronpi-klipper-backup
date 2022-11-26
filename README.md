@@ -18,6 +18,11 @@ discord: whistlinric
 - [Voron Revo](https://e3d-online.com/products/revo-voron)
 - [WLED](https://kno.wled.ge/) macros making use of [new moonraker wled component](https://moonraker.readthedocs.io/en/latest/configuration/#wled) running on a separate [d1 mini v3](https://www.aliexpress.com/item/32651747570.html)
 - [Probe Accuracy Tests](https://github.com/sporkus/probe_accuracy_tests) - WIP
+- [ERCF](https://github.com/EtteGit/EnragedRabbitProject) - Using Octopus board not ERCF EASY BRD
+- [Klipper Estimator](https://github.com/Annex-Engineering/klipper_estimator)
+```
+"C:\Users\accou\OneDrive\Reprap\klipper_estimator\klipper_estimator.exe" --config_moonraker_url http://voron0pi post-process;
+``` 
 
 # Installing klippy/extras via soft links
 This should prevent hard resets removing the source file you just have to re-create the links after.
@@ -48,7 +53,7 @@ pi@voronpi:~/klipper/klippy/extras $ ln -s ~/klipper_config/.scripts/z_calibrati
 [nxutil filament encoder](https://github.com/nexx/nxencoder-util)  
 [http://spikerlights.com/calcpower.aspx](http://spikerlights.com/calcpower.aspx) - LED strip power injection calculator  
 [https://github.com/alchemyEngine/klipper_frame_expansion_comp](https://github.com/alchemyEngine/klipper_frame_expansion_comp)  
-[Klipper Estimator](https://github.com/Annex-Engineering/klipper_estimator)  
+
 [Planetary Z drive](https://github.com/CarlosRodriguess/Galileo-Z_Modify)  
 
 # Other klipper backups I've found useful
