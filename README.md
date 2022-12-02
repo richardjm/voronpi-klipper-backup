@@ -71,6 +71,7 @@ pi@voronpi:~/klipper/klippy/extras $ ln -s ~/klipper_config/.scripts/z_calibrati
 - [Mods including Quiver and Top Handle extrusion mount](https://github.com/SkiBikePrint/ERCF_Mods)
 - [Completely different ERCF software with sensorless and sensor features](https://github.com/moggieuk/ERCF-Software-V3)
 - [Upsidedown buffer array and other mods](https://github.com/geoffrey-young/3D-Printing/tree/main/models/voron/ercf)
+- [Metal Buffer](https://github.com/sloscotty/Metal-Buffer)
 
 # Other klipper backups I've found useful
 [https://github.com/AndrewEllis93/v2.247_backup_klipper_config](https://github.com/AndrewEllis93/v2.247_backup_klipper_config)  
