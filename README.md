@@ -24,6 +24,7 @@ discord: whistlinric
 "C:\Users\accou\OneDrive\Reprap\klipper_estimator\klipper_estimator.exe" --config_moonraker_url http://voron0pi post-process;
 ``` 
 
+
 # Installing klippy/extras via soft links
 This should prevent hard resets removing the source file you just have to re-create the links after.
 
@@ -35,26 +36,41 @@ pi@voronpi:~/klipper/klippy/extras $ ln -s ~/klipper_config/.scripts/z_calibrati
 ```
 
 # Links
-[My Voron Mods](https://github.com/richardjm/voron-parts)
-[Voron User Mods](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods)  
-[https://voronregistry.com/mods](https://voronregistry.com/mods) - Also nice website for same by discord:exceptionptr  
-[https://vorondesign.com/](https://vorondesign.com/)  
+## Main mod repos
+- [My Voron Mods](https://github.com/richardjm/voron-parts)
+- [Voron User Mods](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods)  
+- [https://voronregistry.com/mods](https://voronregistry.com/mods) - Also nice website for same by discord:exceptionptr  
+- [https://vorondesign.com/](https://vorondesign.com/)  
 
-[BTT Octopus GitHub](https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0)  
-[Klipper](https://www.klipper3d.org/)  
-[Ellis' PIF Profile](https://github.com/AndrewEllis93/Ellis-PIF-Profile)  
-[Ellis' Print Tuning Guide](https://github.com/AndrewEllis93/Print-Tuning-Guide)  
-[hartk1213 various repos](https://github.com/hartk1213)  
-[hartk1213 toolhead pcbs](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB)  
-[lcd_tweaks.cfg](https://github.com/VoronDesign/Voron-Documentation/blob/4a825a8704a3c8467606f58fb45ac4c377779842/community/howto/alchemyEngine/lcd_tweaks.cfg)  
-[Measure_thermal_behavior - the need for backers](https://github.com/tanaes/measure_thermal_behavior)  
-[Plater optimal part layout](https://github.com/Rhoban/Plater)  
-[Rama's Voron Mods inc the new idlers](https://github.com/Ramalama2/Voron-2-Mods)  
-[nxutil filament encoder](https://github.com/nexx/nxencoder-util)  
-[http://spikerlights.com/calcpower.aspx](http://spikerlights.com/calcpower.aspx) - LED strip power injection calculator  
-[https://github.com/alchemyEngine/klipper_frame_expansion_comp](https://github.com/alchemyEngine/klipper_frame_expansion_comp)  
-[Live LED update using klipper and display_template](https://github.com/whoim2/w-mini-corexy/blob/main/klipper/led_progress.cfg)  
-[Planetary Z drive](https://github.com/CarlosRodriguess/Galileo-Z_Modify)  
+## Software
+- [Klipper](https://www.klipper3d.org/)
+- [Plater optimal part layout](https://github.com/Rhoban/Plater)
+- [Measure_thermal_behavior - the need for backers](https://github.com/tanaes/measure_thermal_behavior)
+
+## Hardware
+- [BTT Octopus GitHub](https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0)
+- [hartk1213 toolhead pcbs](https://github.com/VoronDesign/Voron-Hardware/tree/master/Afterburner_Toolhead_PCB)
+- [nxutil filament encoder](https://github.com/nexx/nxencoder-util)
+- [LED strip power injection calculator](http://spikerlights.com/calcpower.aspx)
+
+## Voron parts
+- [Planetary Z drive](https://github.com/CarlosRodriguess/Galileo-Z_Modify)
+- [Rama's Voron Mods inc the new idlers](https://github.com/Ramalama2/Voron-2-Mods)
+
+## Klipper configs
+- [lcd_tweaks.cfg](https://github.com/VoronDesign/Voron-Documentation/blob/4a825a8704a3c8467606f58fb45ac4c377779842/community/howto/alchemyEngine/lcd_tweaks.cfg)
+- [Live LED update using klipper and display_template](https://github.com/whoim2/w-mini-corexy/blob/main/klipper/led_progress.cfg)
+- [https://github.com/alchemyEngine/klipper_frame_expansion_comp](https://github.com/alchemyEngine/klipper_frame_expansion_comp)
+
+## Misc
+- [Ellis' PIF Profile](https://github.com/AndrewEllis93/Ellis-PIF-Profile)
+- [Ellis' Print Tuning Guide](https://github.com/AndrewEllis93/Print-Tuning-Guide)
+- [hartk1213 various repos](https://github.com/hartk1213)
+
+## ERCF
+- [Mods including Quiver and Top Handle extrusion mount](https://github.com/SkiBikePrint/ERCF_Mods)
+- [Completely different ERCF software with sensorless and sensor features](https://github.com/moggieuk/ERCF-Software-V3)
+- [Upsidedown buffer array and other mods](https://github.com/geoffrey-young/3D-Printing/tree/main/models/voron/ercf)
 
 # Other klipper backups I've found useful
 [https://github.com/AndrewEllis93/v2.247_backup_klipper_config](https://github.com/AndrewEllis93/v2.247_backup_klipper_config)  
