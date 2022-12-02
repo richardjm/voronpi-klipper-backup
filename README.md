@@ -53,7 +53,7 @@ pi@voronpi:~/klipper/klippy/extras $ ln -s ~/klipper_config/.scripts/z_calibrati
 [nxutil filament encoder](https://github.com/nexx/nxencoder-util)  
 [http://spikerlights.com/calcpower.aspx](http://spikerlights.com/calcpower.aspx) - LED strip power injection calculator  
 [https://github.com/alchemyEngine/klipper_frame_expansion_comp](https://github.com/alchemyEngine/klipper_frame_expansion_comp)  
-
+[Live LED update using klipper and display_template](https://github.com/whoim2/w-mini-corexy/blob/main/klipper/led_progress.cfg)  
 [Planetary Z drive](https://github.com/CarlosRodriguess/Galileo-Z_Modify)  
 
 # Other klipper backups I've found useful
