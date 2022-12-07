@@ -19,6 +19,7 @@ discord: whistlinric
 - [WLED](https://kno.wled.ge/) macros making use of [new moonraker wled component](https://moonraker.readthedocs.io/en/latest/configuration/#wled) running on a separate [d1 mini v3](https://www.aliexpress.com/item/32651747570.html)
 - [Probe Accuracy Tests](https://github.com/sporkus/probe_accuracy_tests) - WIP
 - [ERCF](https://github.com/EtteGit/EnragedRabbitProject) - Using Octopus board not ERCF EASY BRD
+- [ERCF-Software-V3 "Happy Hare"](https://github.com/moggieuk/ERCF-Software-V3)
 - [Klipper Estimator](https://github.com/Annex-Engineering/klipper_estimator)
 ```
 "C:\Users\accou\OneDrive\Reprap\klipper_estimator\klipper_estimator.exe" --config_moonraker_url http://voron0pi post-process;
@@ -69,7 +70,6 @@ pi@voronpi:~/klipper/klippy/extras $ ln -s ~/klipper_config/.scripts/z_calibrati
 
 ## ERCF
 - [Mods including Quiver and Top Handle extrusion mount](https://github.com/SkiBikePrint/ERCF_Mods)
-- [Completely different ERCF software with sensorless and sensor features](https://github.com/moggieuk/ERCF-Software-V3)
 - [Upsidedown buffer array and other mods](https://github.com/geoffrey-young/3D-Printing/tree/main/models/voron/ercf)
 - [Metal Buffer](https://github.com/sloscotty/Metal-Buffer)
 - [Top gimbal mount and other mods](https://github.com/DeBau/VoronMods)
