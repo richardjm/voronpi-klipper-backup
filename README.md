@@ -21,6 +21,8 @@ discord: whistlinric
 - [ERCF](https://github.com/EtteGit/EnragedRabbitProject) - Using Octopus board not ERCF EASY BRD
 - [ERCF-Software-V3 "Happy Hare"](https://github.com/moggieuk/ERCF-Software-V3)
 - [Klipper Estimator](https://github.com/Annex-Engineering/klipper_estimator)
+- [Adaptive Bed Mesh](https://github.com/Frix-x/klipper-voron-V2/blob/main/doc/features/adaptive_bed_mesh.md)
+
 ```
 "C:\Users\accou\OneDrive\Reprap\klipper_estimator\klipper_estimator.exe" --config_moonraker_url http://voron0pi post-process;
 ``` 
@@ -75,14 +77,15 @@ pi@voronpi:~/klipper/klippy/extras $ ln -s ~/klipper_config/.scripts/z_calibrati
 - [Top gimbal mount and other mods](https://github.com/DeBau/VoronMods)
 
 # Other klipper backups I've found useful
-[https://github.com/AndrewEllis93/v2.247_backup_klipper_config](https://github.com/AndrewEllis93/v2.247_backup_klipper_config)  
-[https://github.com/pushc6/VoronConfig](https://github.com/pushc6/VoronConfig)  
-[https://github.com/kageurufu/3dp-voron2/tree/master/printer](https://github.com/kageurufu/3dp-voron2/tree/master/printer)  
-[https://github.com/wile-e1/klipper_config](https://github.com/wile-e1/klipper_config)  
-[https://github.com/th33xitus/klipper_config](https://github.com/th33xitus/klipper_config)  
-[https://github.com/jktightwad/Klipper24Config](https://github.com/jktightwad/Klipper24Config)  
-[https://github.com/mjoconr/Voron2.4-Config](https://github.com/mjoconr/Voron2.4-Config)  
-[https://github.com/zellneralex/klipper_config](https://github.com/zellneralex/klipper_config)  
+- [https://github.com/AndrewEllis93/v2.247_backup_klipper_config](https://github.com/AndrewEllis93/v2.247_backup_klipper_config)
+- [https://github.com/pushc6/VoronConfig](https://github.com/pushc6/VoronConfig)
+- [https://github.com/kageurufu/3dp-voron2/tree/master/printer](https://github.com/kageurufu/3dp-voron2/tree/master/printer)
+- [https://github.com/wile-e1/klipper_config](https://github.com/wile-e1/klipper_config)
+- [https://github.com/th33xitus/klipper_config](https://github.com/th33xitus/klipper_config)
+- [https://github.com/jktightwad/Klipper24Config](https://github.com/jktightwad/Klipper24Config)
+- [https://github.com/mjoconr/Voron2.4-Config](https://github.com/mjoconr/Voron2.4-Config)
+- [https://github.com/zellneralex/klipper_config](https://github.com/zellneralex/klipper_config)
+- [https://github.com/Frix-x/klipper-voron-V2](https://github.com/Frix-x/klipper-voron-V2)
 
 # Modifying safe probe move distance (in 4 places)
 - printer_probing.cfg
