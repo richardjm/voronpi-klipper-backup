@@ -6,37 +6,28 @@ Voron 2.4 250mm v2.1906
 discord: whistlinric
 
 # Features
-- [Calibrating Klipper z offset](https://github.com/protoloft/klipper_z_calibration)
+- [Voron TAP](https://github.com/VoronDesign/Voron-Tap)
 - [Can Bus - SHT36 v2](https://github.com/Mellow-3D/klipper-docs/tree/master/docs/board/fly_sht_v2)
 - [GE5C](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hartk1213/Voron2.4_GE5C)
 - [Git backup](https://github.com/th33xitus/kiauh/wiki/How-to-autocommit-config-changes-to-github%3F) - using [SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) authentication
-- [Klicky Probe](https://github.com/jlas1/Klicky-Probe) - modified macro to send out M117 messages for WLED macros
 - [Nozzle Scrubber](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_&_Nozzle_Scrubber)
 - [Resonance testing with image processing](https://www.klipper3d.org/Measuring_Resonances.html) - pushing to [github](resonances) to view them is pretty easy
 - [Sensorless homing](https://docs.vorondesign.com/community/howto/clee/sensorless_xy_homing.html)
 - [Stealthburner with Clockwork 2](https://vorondesign.com/voron_stealthburner)
 - [Voron Revo](https://e3d-online.com/products/revo-voron)
 - [WLED](https://kno.wled.ge/) macros making use of [new moonraker wled component](https://moonraker.readthedocs.io/en/latest/configuration/#wled) running on a separate [d1 mini v3](https://www.aliexpress.com/item/32651747570.html)
-- [Probe Accuracy Tests](https://github.com/sporkus/probe_accuracy_tests) - WIP
+- [Probe Accuracy Tests](https://github.com/sporkus/probe_accuracy_tests) - have to be run from command line
 - [ERCF](https://github.com/EtteGit/EnragedRabbitProject) - Using Octopus board not ERCF EASY BRD
 - [ERCF-Software-V3 "Happy Hare"](https://github.com/moggieuk/ERCF-Software-V3)
-- [Klipper Estimator](https://github.com/Annex-Engineering/klipper_estimator)
 - [Adaptive Bed Mesh](https://github.com/Frix-x/klipper-voron-V2/blob/main/doc/features/adaptive_bed_mesh.md)
+- [Klipper Estimator](https://github.com/Annex-Engineering/klipper_estimator)
 
 ```
 "C:\Users\accou\OneDrive\Reprap\klipper_estimator\klipper_estimator.exe" --config_moonraker_url http://voron0pi post-process;
 ``` 
-
-
-# Installing klippy/extras via soft links
-This should prevent hard resets removing the source file you just have to re-create the links after.
-
-```sh
-pi@voronpi:~ $ cd klipper/klippy/extras
-pi@voronpi:~/klipper/klippy/extras $ ln -s ~/klipper_config/.scripts/gcode_shell_command.py
-pi@voronpi:~/klipper/klippy/extras $ ln -s ~/klipper_config/.scripts/ercf.py
-pi@voronpi:~/klipper/klippy/extras $ ln -s ~/klipper_config/.scripts/z_calibration.py
-```
+## Previous features
+- [Klicky Probe](https://github.com/jlas1/Klicky-Probe) - modified macro to send out M117 messages for WLED macros
+- [Calibrating Klipper z offset](https://github.com/protoloft/klipper_z_calibration)
 
 # Links
 ## Main mod repos
@@ -86,19 +77,6 @@ pi@voronpi:~/klipper/klippy/extras $ ln -s ~/klipper_config/.scripts/z_calibrati
 - [https://github.com/mjoconr/Voron2.4-Config](https://github.com/mjoconr/Voron2.4-Config)
 - [https://github.com/zellneralex/klipper_config](https://github.com/zellneralex/klipper_config)
 - [https://github.com/Frix-x/klipper-voron-V2](https://github.com/Frix-x/klipper-voron-V2)
-
-# Modifying safe probe move distance (in 4 places)
-- printer_probing.cfg
-	- quad_gantry_level
-        - horizontal_move_z
-	- bed_mesh
-		- horizontal_move_z
-		
-- config.d/z_calibration.cfg
-	- clearance
-	
-- macros.d/klicky_variables.cfg
-	- variable_safe_z
     
 # CAN Bus for Mellow SHT36 v2
 1. [Maz's github on CAN Bus](https://maz0r.github.io/klipper_canbus/)
