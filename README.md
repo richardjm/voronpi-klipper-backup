@@ -57,7 +57,7 @@ discord: whistlinric
 - [https://github.com/alchemyEngine/klipper_frame_expansion_comp](https://github.com/alchemyEngine/klipper_frame_expansion_comp)
 
 ## Misc
-- [Ellis' PIF Profile](https://github.com/AndrewEllis93/Ellis-PIF-Profile)
+- [Ellis' SuperSlicer Profiles](https://github.com/AndrewEllis93/Ellis-SuperSlicer-Profiles)
 - [Ellis' Print Tuning Guide](https://github.com/AndrewEllis93/Print-Tuning-Guide)
 - [hartk1213 various repos](https://github.com/hartk1213)
 
