@@ -58,7 +58,7 @@ discord: whistlinric
 
 ## Misc
 - [Ellis' SuperSlicer Profiles](https://github.com/AndrewEllis93/Ellis-SuperSlicer-Profiles)
-- [Ellis' Print Tuning Guide](https://github.com/AndrewEllis93/Print-Tuning-Guide)
+- [Ellis' Print Tuning Guide](https://ellis3dp.com/Print-Tuning-Guide/)
 - [hartk1213 various repos](https://github.com/hartk1213)
 
 ## ERCF
