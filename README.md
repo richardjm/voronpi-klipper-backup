@@ -107,8 +107,53 @@ iface can0 can static
 
 ## Klipper - Octopus USB to CAN Bridge
 
-**Whatever I do I can't get this to work**
+Thanks to help from Methos on discord this is now working.
 
+1. Build the firmware e.g. this way allows a config per device
+```sh
+make clean KCONFIG_CONFIG=config.Octopus
+make menuconfig KCONFIG_CONFIG=config.Octopus
+make KCONFIG_CONFIG=config.Octopus
+```
+2. Double click the button (near the usb socket) on the Octopus board to turn on canboot
+3. Find your usb device - should have CanBoot in it
+```sh
+ls /dev/serial/by-id/*
+~/CanBoot/scripts/flash_can.py -d /dev/serial/by-id/usb-CanBoot_stm32f446xx_0B0027000A50534E4E313020-if00
+```
+4. `lsusb` should show two OpenMoko devices
+```sh
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 005: ID 1d50:606f OpenMoko, Inc.
+Bus 001 Device 004: ID 1a86:7523 QinHeng Electronics HL-340 USB-Serial adapter
+Bus 001 Device 007: ID 1d50:606f OpenMoko, Inc.
+Bus 001 Device 002: ID 2109:3431 VIA Labs, Inc. Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+```
+5. If you already have a can board e.g. utoc build plugged in that will be CAN0,
+   we need to setup a CAN1 to scan.
+```sh
+sudo ip link set can1 type can bitrate 500000
+sudo ip link set can1 txqueuelen 256
+sudo ifconfig can1 up
+```
+6. Now we can scan the CAN1 for the klipper UUID
+```sh
+~/CanBoot/scripts/flash_can.py -i can1 -q
+Resetting all bootloader node IDs...
+Checking for canboot nodes...
+Detected UUID: bac2e369d891, Application: Klipper
+Query Complete
+```
+7. Change your `printer.cfg` to use CANBUS
+```yaml
+[mcu]
+canbus_uuid: bac2e369d891
+```
+8. Unplug your old UTOC or similar board, reboot system (full power cycle)
+9. Hopefully that all works. _note: It seems that klipper prevents scans of canbus
+once it has connected, single click the button on the octopus board to allow querying to work. Possibly power cycling the CANBUS board on your toolhead as well if you don't
+know it's UUID or find it out first before using the Octopus board as your USB CAN bridge._
 - https://github.com/maz0r/klipper_canbus/blob/main/controller/monster8v2.md
 - https://github.com/Arksine/CanBoot
 - https://www.klipper3d.org/CANBUS.html
@@ -118,6 +163,13 @@ iface can0 can static
 ### Some command lines
 
 ```bash
+# Octopus Flash
+make clean KCONFIG_CONFIG=config.Octopus
+make menuconfig KCONFIG_CONFIG=config.Octopus
+make KCONFIG_CONFIG=config.Octopus
+~/CanBoot/scripts/flash_can.py -i can0 -u bac2e369d891 -f ~/klipper/out/klipper.bin
+~/CanBoot/scripts/flash_can.py -d /dev/serial/by-id/usb-CanBoot_stm32f446xx_0B0027000A50534E4E313020-if00
+
 # OpenMoko is CAN bus I think
 x@host:~ $ lsusb
 Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
