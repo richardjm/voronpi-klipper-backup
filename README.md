@@ -105,6 +105,16 @@ iface can0 can static
 ## CanBoot - Octopus
 ![canboot-octopus](.images/canboot-octopus.png)
 
+## Klipper - Raspberry Pi
+```sh
+make clean KCONFIG_CONFIG=config.Rasppi
+make menuconfig KCONFIG_CONFIG=config.Rasppi
+sudo service klipper stop
+make flash KCONFIG_CONFIG=config.Rasppi
+sudo service klipper start
+```
+![Klipper-RaspberryPi](.images/Klipper-RaspberryPi.png)
+
 ## Klipper - Octopus USB to CAN Bridge
 
 Thanks to help from Methos on discord this is now working.
