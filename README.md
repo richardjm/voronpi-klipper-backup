@@ -101,6 +101,12 @@ iface can0 can static
 ![Klipper-Octopus-USB](.images/Klipper-Octopus-USB.png)
 
 ## Klipper - mellow-sht36-v2
+```sh
+make clean KCONFIG_CONFIG=config.sht36
+make menuconfig KCONFIG_CONFIG=config.sht36
+make KCONFIG_CONFIG=config.sht36
+# where do I go from here?
+```
 ![klipper-sht36-v2](.images/klipper-sht36-v2.png)
 
 ## CanBoot - Octopus
