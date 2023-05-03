@@ -77,7 +77,7 @@ discord: whistlinric
 - [https://github.com/jktightwad/Klipper24Config](https://github.com/jktightwad/Klipper24Config)
 - [https://github.com/mjoconr/Voron2.4-Config](https://github.com/mjoconr/Voron2.4-Config)
 - [https://github.com/zellneralex/klipper_config](https://github.com/zellneralex/klipper_config)
-- [https://github.com/Frix-x/klipper-voron-V2](https://github.com/Frix-x/klipper-voron-V2)
+- [https://github.com/Frix-x/klippain](https://github.com/Frix-x/klippain)
     
 # CAN Bus for Mellow SHT36 v2
 1. [Maz's github on CAN Bus](https://maz0r.github.io/klipper_canbus/)
