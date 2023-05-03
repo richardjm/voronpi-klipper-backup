@@ -101,11 +101,17 @@ iface can0 can static
 ![Klipper-Octopus-USB](.images/Klipper-Octopus-USB.png)
 
 ## Klipper - mellow-sht36-v2
+Full instructions at https://github.com/Esoterical/voron_canbus/tree/main/toolhead_flashing
 ```sh
 make clean KCONFIG_CONFIG=config.sht36
 make menuconfig KCONFIG_CONFIG=config.sht36
 make KCONFIG_CONFIG=config.sht36
-# where do I go from here?
+# Reboot toolhead to CanBoot
+python3 ~/CanBoot/scripts/flash_can.py -i can0 -u bc3001b7c431 -r
+# Check it's there
+python3 ~/CanBoot/scripts/flash_can.py -q
+# Flash it
+python3 ~/CanBoot/scripts/flash_can.py -i can0 -u bc3001b7c431 -f ~/klipper/out/klipper.bin
 ```
 ![klipper-sht36-v2](.images/klipper-sht36-v2.png)
 
