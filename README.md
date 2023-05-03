@@ -21,6 +21,7 @@ discord: whistlinric
 - [ERCF-Software-V3 "Happy Hare"](https://github.com/moggieuk/ERCF-Software-V3)
 - [Adaptive Bed Mesh](https://github.com/Frix-x/klipper-voron-V2/blob/main/doc/features/adaptive_bed_mesh.md)
 - [Klipper Estimator](https://github.com/Annex-Engineering/klipper_estimator)
+- [Klipper Extensions](https://github.com/voidtrance/voron-klipper-extensions) - Discard first probe sample
 
 ```
 "C:\Users\accou\OneDrive\Reprap\klipper_estimator\klipper_estimator.exe" --config_moonraker_url http://voron0pi post-process;
