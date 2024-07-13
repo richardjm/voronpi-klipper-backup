@@ -1,6 +1,7 @@
 #!/bin/bash
 
-export $(grep -v '^#' ~/.gh_token | xargs -0)
+# This uses ssh authentication now
+# export $(grep -v '^#' ~/.gh_token | xargs -0)
 
 #####################################################################
 ### Please set the paths accordingly. In case you don't have all  ###
