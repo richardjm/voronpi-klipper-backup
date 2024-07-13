@@ -4,10 +4,10 @@ now=$(date +"%F-%H_%M_%S")
 # TEST_RESONANCES AXIS=Y
 
 echo Processing x-axis
-/home/pi/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_*.csv -o /home/pi/klipper_config/resonances/shaper_calibrate_x-${now}.png
+/home/mundo/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_*.csv -o /home/mundo/printer_data/config/resonances/shaper_calibrate_x-${now}.png
 
 echo processing y-axis
-/home/pi/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_*.csv -o /home/pi/klipper_config/resonances/shaper_calibrate_y-${now}.png
+/home/mundo/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_*.csv -o /home/mundo/printer_data/config/resonances/shaper_calibrate_y-${now}.png
 
 # TEST_RESONANCES AXIS=1,1 OUTPUT=raw_data
 # TEST_RESONANCES AXIS=1,-1 OUTPUT=raw_data
