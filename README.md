@@ -22,6 +22,7 @@ discord:whistlinric
 - [WLED](https://kno.wled.ge/) macros making use of [new moonraker wled component](https://moonraker.readthedocs.io/en/latest/configuration/#wled) running on a separate [d1 mini v3](https://www.aliexpress.com/item/32651747570.html)
 - [Klipper Estimator](https://github.com/Annex-Engineering/klipper_estimator)
 - [TMC Autotune](https://github.com/andrewmcgr/klipper_tmc_autotune)
+- [Klipper Shake&Tune](https://github.com/Frix-x/klippain-shaketune)
 - [Voron Klipper Extensions](https://github.com/voidtrance/voron-klipper-extensions) - Discard first probe sample
 
 ```text
