@@ -72,4 +72,4 @@ discord:whistlinric
 ## Klipper from scrach
 
 I moved the documentation about compilation of klipper and CAN Bus
-over to [my github.io site](https://richardjm.github.io/3d-printing/klipper-from-scratch).
+over to [my github.io site](https://richardjm.github.io/3d-printing/klipper-from-scratch)
